@@ -20,8 +20,7 @@ width = amount_of_colors * 100
 height = math.floor(width * 0.6)
 image = Image.new("RGB", (width, height))
 
-# Loop through the colors in the palette and draw a horizontal stripe
-# of each color in the image
+# Loop through the colors in the palette and draw a horizontal stripe of each color in the image
 ratio = width/amount_of_colors
 color_selector = -1
 
